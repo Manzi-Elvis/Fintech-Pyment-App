@@ -145,7 +145,7 @@ export function DashboardLayout({ children, user, profile }: DashboardLayoutProp
         </Sidebar>
 
         <div className="flex-1 flex flex-col">
-          <header className="border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+          <header className="border-b border-border/40 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
             <div className="flex h-16 items-center px-6">
               <SidebarTrigger className="md:hidden" />
               <div className="flex-1" />
