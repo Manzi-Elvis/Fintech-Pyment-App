@@ -59,7 +59,7 @@ export function WalletOverview({ userId }: WalletOverviewProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {/* Primary Wallet */}
-      <Card className="bg-gradient-to-br from-primary to-primary/80 text-primary-foreground">
+      <Card className="bg-linear-to-br from-primary to-primary/80 text-primary-foreground">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
           <CardTitle className="text-sm font-medium opacity-90">Primary Wallet</CardTitle>
           <div className="flex items-center space-x-2">
