@@ -86,7 +86,7 @@ export function AuthLanding() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted">
+    <div className="min-h-screen bg-linear-to-br from-background via-background to-muted">
       {/* Header */}
       <header className="border-b border-border/40 backdrop-blur-sm bg-background/80">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
